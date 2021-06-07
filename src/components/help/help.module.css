@@ -1,0 +1,289 @@
+.box{
+    float: right;
+    background-color: #fff;
+    width: 79%;
+    height: 850px;
+    border-radius: 26px 0 0 0;
+    margin-top: 252px
+}
+.favorite{
+    font-family: HelveticaNeueLTARMW05-65Md;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-feature-settings: 'liga' off;
+    color: #A9ABB5;
+    justify-content: space-between;
+}
+.boxWidth{
+   margin: -77px 20px 0px 20px;
+}
+.arrow{
+    display: inline-block;
+    background-image: url('../icons/arrow.svg');
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 14px;
+    margin-left: 10px;
+}
+.arrowTransform{
+    transform:rotate(180deg) ;
+}
+.contianerGrid{
+    display: grid;
+    grid-gap: 13px;
+    grid-template-columns: auto auto auto auto auto;
+}
+.gridItem{
+    width: 240px;
+    height: 120px;   
+    box-shadow:0px 3px 5px rgba(0, 0, 0, 0.03), 0px 5px 13px rgba(41, 46, 70, 0.07),0px 1px 2px rgba(41, 46, 70, 0.09);
+    border-radius: 16px;
+}
+.ucomCart{
+    display: flex;
+    background-image: url('../icons/ucomCart.svg');
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    flex-direction: column;
+}
+.cartBox{
+    width: 222px;
+    padding: 0 18px;
+    
+}
+.text{
+    width: 117px;
+    font-family: HelveticaNeueLTARMW05-85Hv;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 18px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    float: left;
+}
+.day{
+    font-size: 13px;
+    font-family: HelveticaNeueLTARMW05-95Blk;
+    flex: none;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    float: right;
+    width: 41px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 2px 9px rgba(41, 46, 70, 0.08), 0px 11px 28px rgba(41, 46, 70, 0.1);
+    border-radius: 6px ;
+}
+.count{
+    font-family: HelveticaNeueLTARMW05-85Hv;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 20px;
+    font-feature-settings: 'liga' off;
+    color: #FFFFFF;
+    padding: 0 18px;
+    margin: 3px 0;
+}
+.fix{
+    font-feature-settings: 'liga' off;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: HelveticaNeueLTARMW05-55Rm;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    margin: 0;
+    text-align: center;
+}
+.cartFon{
+    background-image: url('../icons/cartFon.svg');
+    width: 100%;
+    height: 100%;
+}
+.cartlefthbox{
+    margin: 0px 20px;
+}
+.iconBox{
+    display: flex;   
+}
+
+.ucomIcon{ 
+    position: relative;
+    z-index: 4;
+    height: 100%;
+    margin-top: 16px;
+}
+
+.iconGaz{
+    position: relative;
+    right: 40px;
+    z-index: 3;
+}
+.electrocity{
+    position: relative;
+    right: 106px;
+    z-index: 2; 
+}
+
+.phone{
+    position: relative;
+    right: 172px;
+    z-index: 1;
+}
+
+.idBanck{
+    position: relative;
+    right: 238px;
+    z-index: 0; 
+}
+.textPay{
+    display: block;
+    margin-top: -24px;
+    font-family: HelveticaNeueLTARMW05-85Hv;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 21px;
+}
+.iconStream{
+    position: relative;
+    z-index: 3;
+    right: 10px;
+    bottom: 10px;
+}
+.iconXbox{
+    position: relative;
+    z-index: 2;
+    right: 47px;
+    top:1px;  
+}
+.iconWorld{
+    position: relative;
+    z-index: 1;
+    right: 85px;
+    bottom: 10px;
+}
+.iconWarplanse{
+    position: relative;
+    z-index: 0;
+    right: 95px;
+    bottom: 10px;
+}
+.myPhone{
+    margin: -26px 0px 0px 22px;
+}
+.perlodic{
+    float: right;
+    margin: -8px 10px 0 0;
+}
+.payBox{
+    margin-top: 63px;
+}
+.containerFlex{
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.textCart{
+    font-family: HelveticaNeueLTARMW05-75Bd;
+font-style: normal;
+font-weight: bold;
+font-size: 17px;
+line-height: 24px;
+color: #000;
+margin: 0;
+}
+
+.expenses{
+    height: 442px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%), #EEEFF0;
+    opacity: 0.5;
+    border-radius: 16px;
+
+}
+.expensesBox{
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
+.gridFlex{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 21px;
+}
+.gridFlex>div{
+    text-align: center;
+}
+.round{
+    font-family: HelveticaNeueLTARMW05-75Bd;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 22px;
+    color: #7189BF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 43px;
+    height: 24px;
+    border: 1px solid rgba(41, 46, 70, 0.1);
+    box-sizing: border-box;
+    border-radius: 80px;
+}
+.textBold{
+    font-style: normal;
+font-weight: bold;
+font-size: 13px;
+line-height: 21px;
+color: #292E46;
+margin-bottom: 0;
+}
+
+.textNumber{
+    text-align: start;
+    margin: 0;
+    opacity: 0.5;
+}
+.dealsGrid{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    grid-gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+.dealsGrid>div{   
+    padding: 15px 15px;
+}
+.dealsGrid>div>p{
+    margin: 0;
+}
+.txt{
+    font-family: HelveticaNeueLTARMW05-55Rm;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    font-feature-settings: 'liga' off;
+    color: #9496A2;
+}
+.vector{
+   background-image: url('../icons/vector.svg'); 
+   height: 1px;
+    margin:0 0 0 115px;
+
+}

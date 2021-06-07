@@ -1,38 +1,281 @@
-.App {
+
+
+body{
+  background: #F4F5F6;
+}
+
+nav{
+  position: fixed;
+  z-index: 5;
+  background: #F4F5F6;
+}
+.navBox{
+  display: inline-flex;
+  margin: 2rem;
+  align-items: center;
+
+}
+.container{
+  width: 100%;
+}
+.navlink{
+  list-style-type: none;
+  padding: 20px;
+  
+}
+
+.mr-100{
+  margin-right: 100px;
+}
+.navText{
+  font-family: HelveticaNeueLTARMW05-85Hv;
+  font-style: normal;
+  color: #9496A2;
+  text-decoration: none;
+}
+.active{
+  color: rgba(0, 0, 0);
+  font-weight: 800;
+}
+.db{
+  display: block;
+  padding: 20px;
+  border-radius: 50%;
+  background-color: #fff;
+  position: relative;
+  top: 10px;
+}
+.more{
+  display: block;
+  border: 1px solid #9496A2;
+  margin-bottom: 3px;
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+ background-color: #9496A2;
+}
+.searchPone{
+  display: inline-block;
+  width: 149px;
+  height: 48px;
+  border-radius:  1e+11px;
+  flex-direction: row;
+  align-items: flex-start;
+  background-color: #fff;
+  list-style-type: none;
+}
+
+.iconSearch{
+  padding: 12px, 20px, 12px, 20px;
+  margin-left: 12%;
+  margin-top: 9%;
+  color: #9496A2;
+}
+
+.searchPone>span{
+  margin-left: 15px;
+  color: #9496A2;
+}
+
+.notivIcons{
+  display: block;
+  background-image: url('./components/icons/notivication.svg');
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+}
+
+.notivication{ 
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 15px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.notevicationNamber{
+  padding: 0px 5px;
+  border-radius: 1e+11px;
+  background: #FFA800;
+  box-shadow: 0px 4px 9px rgba(254, 192, 7, 0.3), 0px 15px 28px rgba(255, 193, 7, 0.2);
+  position: relative;
+  left: 40px;
+  bottom: 52px;
+}
+
+.boxLeft{
+  flex-direction: column;
+  display: flex;
+  width: 21%;
+  float: left;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 210px;
+}
+.fixes{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 27.62px;
+  height: 33.28px;
+  background: linear-gradient(180deg, #A6CE38 0%, rgba(166, 206, 56, 0) 100%);
+  background-image: url('./components/icons/borderFixes.svg');
+  margin-top: 62px;
+  margin-left: 68px;
+}
+.userphoto{
+  width: 100%;
+  background-repeat: no-repeat;
+  background-image: url('./components/icons/userpfoto.svg');
+  margin-left: 247px;
+  background-origin: padding-box;
+}
+
+.checkMark{
+  width: 20px;
+  height: 20px;
+  background-image: url('./components/icons/checkMark.svg');
+  background-repeat: no-repeat;
+}
+
+.tac{
+  font-family: HelveticaNeueLTARMW05-55Rm;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 27px;
+  text-align: center;
+  color: #696D7E;
+}
+.count{
+  font-style: normal;
+  font-weight: 800;
+  font-size: 37px;
+  line-height: 44px;
+  color: #292E46;
+  margin: 0;
+}
+.plusicon{
+  width: 14px;
+  height: 14px;
+  padding: 7px;
+  border-radius: 50%;
+  background: #A6CE38;
+  margin-left: 8px;
+}
+.cart{
+  font-family: HelveticaNeueLTARMW05-65Md;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+  display: flex;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-feature-settings: 'liga' off;
+  flex-direction: initial;
+  justify-content: space-around;
+
+}
+.plusCart{
+  width: 16px;
+  background-image: url('./components/icons/plus.svg');
+  background-repeat: no-repeat;
+  margin-top: 13px;
+}
+
+.cartText{
+  color: #A9ABB5;
+  margin-right: 168px;
+}
+.userCart{
+
+  width: 320px;
+  height: 176px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 9px rgba(41, 46, 70, 0.08), 0px 11px 28px rgba(41, 46, 70, 0.1);
+  border-radius: 16px;
+}
+
+.cartFon{
+  background-image: url('./components/icons/evocaCart.svg');
+  width: 320px;
+  height:176px;
+}
+
+.cartBottom{
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  height: 182px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 9px rgba(41, 46, 70, 0.08), 0px 11px 28px rgba(41, 46, 70, 0.1);
+  border-radius: 16px;
+}
+.cartName{
+  background-image: url('./components/icons/evocaIcon.svg');
+  width: 140px;
+  height: 15.36px;
+  margin-top: 26px;
+}
+.cartNumber{
+  display: flex;
+  align-items: flex-end;
+  text-align: right;
+  font-feature-settings: 'liga';
+  font-family: Share Tech Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 21px;
+  color: #9496A2;
+  opacity: 0.55;
+}
+.balance{
+  margin: 64px 0px 0px 26px;
+  font-family: HelveticaNeueLTARMW05-65Md;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-feature-settings: 'liga' off;
+  color: #9496A2;
+}
+.fz-24{
+  float: left;
+  font-size: 24px;
+  margin-left: 26px;
+}
+.visa{
+  background-image: url('./components/icons/visa.svg');
+  width: 55px;
+  height: 16px;
+  float: right;
+  margin-right: 22px;
+}
+.slyder{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;  
+  border: 1px solid rgba(41, 46, 70, 0.2);
+  box-sizing: border-box; 
+  margin-top: 15px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.cearkl{
+  display: inline-block;
+  background: #696D7E;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  margin-left: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.slyder>span{
+  margin: 0px;
 }

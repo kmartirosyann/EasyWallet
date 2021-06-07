@@ -1,0 +1,91 @@
+.transfersBox{
+    float: right;
+    background-color: #fff;
+    width: 79%;
+    height: 850px;
+    border-radius: 26px 0 0 0;
+    margin: 185px 0px 0px 30px;
+}
+.text{
+    font-family: HelveticaNeueLTARMW05-95Blk;
+    margin-left: 60px;
+    margin-top: 68px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 37px;
+    line-height: 44px;
+    color: #292E46;
+}
+.gridItem{
+    display: grid;
+    grid-gap: 13px;
+    grid-template-columns: auto auto auto auto ;
+    padding: 20px;
+}
+.gridItem>div{
+    background: #F4F5F6;
+    border-radius: 16px;
+    height: 168px;
+    text-align: center;
+}
+.gridItem>div>img{
+    margin-top: -25px;
+}
+.gridItem>div>p{
+    font-family: HelveticaNeueLTARMW05-85Hv;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: capitalize;
+    font-feature-settings: 'liga' off;
+    color: #696D7E;
+}
+.phone{
+    border: 1px solid #EAEAED;
+    box-sizing: border-box;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.03), 0px 5px 13px rgba(41, 46, 70, 0.07), 0px 1px 2px rgba(41, 46, 70, 0.09);
+    border-radius: 8px;
+    background: url('../icons/iconVector.svg')no-repeat right #FFFFFF ;
+    width: 261px;
+    padding: 20px;
+}
+
+.ElectronicTransfersGrid{
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: auto auto auto auto auto;
+    padding: 20px;
+}
+.txt{
+    font-family: HelveticaNeueLTARMW05-85Hv;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    font-feature-settings: 'liga' off;
+    color: #292E46;
+    font-style: normal;
+    font-weight: 350;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 50px 0px 0px 50px;
+    opacity: 0.5;
+}
+.ElectronicTransfersGrid>div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.03), 0px 5px 13px rgba(41, 46, 70, 0.07), 0px 1px 2px rgba(41, 46, 70, 0.09);
+    border-radius: 16px;
+}
+.BeeMoney{
+    font-family: HelveticaNeueLTARMW05-75Bd;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    font-feature-settings: 'liga' off;
+    color: #292E46;
+}
